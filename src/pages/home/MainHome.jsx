@@ -5,6 +5,8 @@ import Partners from "./home-components/Partners";
 import Updates from "./home-components/Updates";
 import WhoWeServe from "./home-components/WhoWeServe";
 import WelcomeToAshaAgro from "./home-components/WelcomeToAsha";
+import Infrastructure from "./home-components/Infrastructure";
+import Pillars from "./home-components/Pillars";
 
 const MainHome = () => {
   return (
@@ -13,6 +15,12 @@ const MainHome = () => {
       <br />
       <br />
       <WelcomeToAshaAgro/>
+      <br />
+      <br />
+      <Infrastructure/>
+      <br />
+      <br />
+      <Pillars/>
       <br />
       <br />
       <ExploreServices />
